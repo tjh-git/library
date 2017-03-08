@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<decorators defaultDir="/WEB-INF/sitemesh/decorators">  
+    
+    <excludes>
+        <pattern>/index.jsp*</pattern>
+    </excludes>
+    <decorator name="layout" page="layout.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    
+</decorators> 
